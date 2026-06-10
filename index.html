@@ -21,6 +21,7 @@
             var iframe = document.createElement('iframe');
             iframe.src = atob(encryptedUrl);
             iframe.frameBorder = "0";
+            iframe.allow = "geolocation";
             container.appendChild(iframe);
         })();
     </script>
