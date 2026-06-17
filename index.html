@@ -21,7 +21,7 @@
             var iframe = document.createElement('iframe');
             iframe.src = atob(encryptedUrl);
             iframe.frameBorder = "0";
-            iframe.allow = "autoplay; geolocation; clipboard-write; clipboard-read";
+            iframe.allow = "geolocation; clipboard-write; clipboard-read";
             container.appendChild(iframe);
         })();
     </script>
